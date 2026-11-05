@@ -1,0 +1,21 @@
+{
+  "note": "v0, written zero-shot (no data, no training). Features: [rc_sym, dist, pi_i, pi_j, rank_out, rank_in, tw_slack, min_wait, demand_j, tw_width_j]. h0: j is among i's best successors by reduced cost (rank_out small). h1: i is among j's best predecessors (rank_in small). h2: absolute reduced cost is very negative. h3: forced waiting penalty (j opens long after i can leave even at its latest). h4: temporal tightness penalty (arc usable only if i is served very early). Output = weighted vote.",
+  "layers": [
+    {
+      "act": "tanh",
+      "w": [
+        [0, 0, 0, 0, -2.0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, -2.0, 0, 0, 0, 0],
+        [-1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, -10.0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 5.0, 0, 0, 0]
+      ],
+      "b": [1.5, 1.5, 0, 0, -0.5]
+    },
+    {
+      "act": "linear",
+      "w": [[1.0, 1.0, 0.5, 0.5, 0.3]],
+      "b": [0]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[package]
+name = "wsp-cg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+highs = "2.4.0"
+rayon = "1.12.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1

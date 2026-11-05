@@ -1,0 +1,12 @@
+[project]
+name = "wsp-mip"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "networkx>=3.7",
+    "numpy>=2.5.4",
+    "pyscipopt>=6.3.0",
+    "scipy>=1.18.1",
+]

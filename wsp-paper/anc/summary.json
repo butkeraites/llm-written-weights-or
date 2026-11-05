@@ -1,0 +1,424 @@
+{
+ "headroom": {
+  "setcover/relpscost": {
+   "nodes": 3303.8,
+   "time": 56.51,
+   "solved": 9,
+   "n": 10
+  },
+  "setcover/fullstrong": {
+   "nodes": 128.7,
+   "time": 212.5,
+   "solved": 3,
+   "n": 10
+  },
+  "setcover/pscost": {
+   "nodes": 5739.8,
+   "time": 55.17,
+   "solved": 9,
+   "n": 10
+  },
+  "setcover/mostinf": {
+   "nodes": 33376.7,
+   "time": 222.12,
+   "solved": 2,
+   "n": 10
+  },
+  "indset/relpscost": {
+   "nodes": 339.1,
+   "time": 30.45,
+   "solved": 10,
+   "n": 10
+  },
+  "indset/fullstrong": {
+   "nodes": 17.8,
+   "time": 157.58,
+   "solved": 5,
+   "n": 10
+  },
+  "indset/pscost": {
+   "nodes": 4537.8,
+   "time": 61.04,
+   "solved": 8,
+   "n": 10
+  },
+  "indset/mostinf": {
+   "nodes": 2849.1,
+   "time": 46.22,
+   "solved": 8,
+   "n": 10
+  },
+  "cfl/relpscost": {
+   "nodes": 28.9,
+   "time": 8.48,
+   "solved": 10,
+   "n": 10
+  },
+  "cfl/fullstrong": {
+   "nodes": 21.3,
+   "time": 9.38,
+   "solved": 10,
+   "n": 10
+  },
+  "cfl/pscost": {
+   "nodes": 73.9,
+   "time": 6.72,
+   "solved": 10,
+   "n": 10
+  },
+  "cfl/mostinf": {
+   "nodes": 70.2,
+   "time": 6.73,
+   "solved": 10,
+   "n": 10
+  },
+  "cauction/relpscost": {
+   "nodes": 7.2,
+   "time": 1.93,
+   "solved": 10,
+   "n": 10
+  },
+  "cauction/fullstrong": {
+   "nodes": 4.6,
+   "time": 2.54,
+   "solved": 10,
+   "n": 10
+  },
+  "cauction/pscost": {
+   "nodes": 308.4,
+   "time": 1.76,
+   "solved": 10,
+   "n": 10
+  },
+  "cauction/mostinf": {
+   "nodes": 589.3,
+   "time": 2.45,
+   "solved": 10,
+   "n": 10
+  }
+ },
+ "synthetic_v1_vs_default": {
+  "indset/test": {
+   "time_default": 17.72,
+   "time_v1": 6.69,
+   "v1_faster": 10,
+   "n": 10
+  },
+  "indset/medium": {
+   "time_default": 70.99,
+   "time_v1": 26.86,
+   "v1_faster": 8,
+   "n": 8
+  },
+  "setcover/test": {
+   "time_default": 49.41,
+   "time_v1": 44.63,
+   "v1_faster": 6,
+   "n": 10
+  },
+  "setcover/medium": {
+   "time_default": 77.57,
+   "time_v1": 70.7,
+   "v1_faster": 5,
+   "n": 8
+  }
+ },
+ "sb_agreement_train": {
+  "setcover/ps": 0.284,
+  "setcover/v0": 0.348,
+  "setcover/v1": 0.339,
+  "setcover/trained_joint": 0.344,
+  "setcover/per": 0.359,
+  "setcover/random": 0.107,
+  "indset/ps": 0.256,
+  "indset/v0": 0.376,
+  "indset/v1": 0.391,
+  "indset/trained_joint": 0.457,
+  "indset/per": 0.436,
+  "indset/random": 0.117
+ },
+ "sb_train_nodes": {
+  "setcover": 1361,
+  "indset": 805
+ },
+ "hand_vs_trained": {
+  "test/setcover/relpscost": {
+   "nodes": 3337,
+   "time": 57.16,
+   "n": 10
+  },
+  "test/setcover/net:v1": {
+   "nodes": 4444,
+   "time": 32.14,
+   "n": 10
+  },
+  "test/setcover/net:trained_joint": {
+   "nodes": 6136,
+   "time": 34.86,
+   "n": 10
+  },
+  "test/setcover/per": {
+   "nodes": 6261,
+   "time": 57.49,
+   "n": 10
+  },
+  "test/indset/relpscost": {
+   "nodes": 339,
+   "time": 16.22,
+   "n": 10
+  },
+  "test/indset/net:v1": {
+   "nodes": 276,
+   "time": 4.2,
+   "n": 10
+  },
+  "test/indset/net:trained_joint": {
+   "nodes": 285,
+   "time": 4.21,
+   "n": 10
+  },
+  "test/indset/per": {
+   "nodes": 370,
+   "time": 7.34,
+   "n": 10
+  },
+  "medium/setcover/relpscost": {
+   "nodes": 5798,
+   "time": 71.83,
+   "n": 8
+  },
+  "medium/setcover/net:v1": {
+   "nodes": 7087,
+   "time": 47.81,
+   "n": 8
+  },
+  "medium/setcover/net:trained_joint": {
+   "nodes": 9683,
+   "time": 52.72,
+   "n": 8
+  },
+  "medium/setcover/per": {
+   "nodes": 9504,
+   "time": 71.4,
+   "n": 8
+  },
+  "medium/indset/relpscost": {
+   "nodes": 2786,
+   "time": 53.85,
+   "n": 8
+  },
+  "medium/indset/net:v1": {
+   "nodes": 1426,
+   "time": 16.99,
+   "n": 8
+  },
+  "medium/indset/net:trained_joint": {
+   "nodes": 1700,
+   "time": 18.25,
+   "n": 8
+  },
+  "medium/indset/per": {
+   "nodes": 1170,
+   "time": 24.1,
+   "n": 8
+  }
+ },
+ "miplib": {
+  "instances": 39,
+  "solved_default": 24,
+  "solved_v1": 19,
+  "time_default": 100.9,
+  "time_v1": 118.1,
+  "nodes_both_solved_default": 1989,
+  "nodes_both_solved_v1": 5080,
+  "both_solved_nontrivial": 17
+ },
+ "marta_feature_argmax_ratio": {
+  "frac": 0.302,
+  "ps": 0.315,
+  "obj": 0.22,
+  "deg": 0.216,
+  "tight": 0.203,
+  "dualm": 0.221,
+  "val": 0.229,
+  "fconf": 0.13,
+  "alt": 0.243,
+  "rowf": 0.219,
+  "eff": 0.199
+ },
+ "marta_random_ratio": 0.186,
+ "marta_nodes_with_prunable_child": 0.911,
+ "marta_diag_nodes": 2264,
+ "marta_practice_c": {
+  "c:relpscost": {
+   "nodes": 487,
+   "time": 39.1
+  },
+  "c:m3": {
+   "nodes": 1238,
+   "time": 21.6
+  },
+  "c:c_la3": {
+   "nodes": 265,
+   "time": 41.2
+  },
+  "c:c_la3i100": {
+   "nodes": 272,
+   "time": 31.5
+  },
+  "c:c_la8i100": {
+   "nodes": 193,
+   "time": 48.3
+  },
+  "c:c_la5d10": {
+   "nodes": 516,
+   "time": 33.4
+  }
+ },
+ "marta_test_c": {
+  "c:pscost": {
+   "median_time_ratio": 0.708,
+   "faster_share": 0.906
+  },
+  "c:v1": {
+   "median_time_ratio": 0.729,
+   "faster_share": 0.688
+  },
+  "c:vm_fast": {
+   "median_time_ratio": 0.726,
+   "faster_share": 0.719
+  },
+  "c:vm_la": {
+   "median_time_ratio": 1.0,
+   "faster_share": 0.406
+  },
+  "ctrl": {
+   "c:pscost": {
+    "solved": 24,
+    "time": 57.2,
+    "nodes": 2074
+   },
+   "c:relpscost": {
+    "solved": 24,
+    "time": 88.9,
+    "nodes": 798
+   },
+   "c:v1": {
+    "solved": 25,
+    "time": 56.9,
+    "nodes": 1987
+   },
+   "c:vm_fast": {
+    "solved": 24,
+    "time": 56.6,
+    "nodes": 1980
+   }
+  },
+  "lookahead_batch": {
+   "c:relpscost": {
+    "solved": 23,
+    "time": 88.3,
+    "nodes": 782
+   },
+   "c:v1": {
+    "solved": 25,
+    "time": 56.0,
+    "nodes": 1966
+   },
+   "c:vm_fast": {
+    "solved": 24,
+    "time": 57.5,
+    "nodes": 1928
+   },
+   "c:vm_la": {
+    "solved": 22,
+    "time": 93.8,
+    "nodes": 640
+   }
+  }
+ },
+ "cg_time_breakdown_s": {
+  "full": {
+   "t_exact": 1432.6,
+   "t_heur": 409.4,
+   "t_lp": 655.9,
+   "t_reduce": 0.3
+  },
+  "rc4": {
+   "t_exact": 2359.2,
+   "t_heur": 21.6,
+   "t_lp": 485.7,
+   "t_reduce": 24.2
+  },
+  "rc8": {
+   "t_exact": 1853.2,
+   "t_heur": 49.7,
+   "t_lp": 571.2,
+   "t_reduce": 27.0
+  },
+  "rc16": {
+   "t_exact": 1636.2,
+   "t_heur": 100.9,
+   "t_lp": 641.7,
+   "t_reduce": 29.6
+  },
+  "net8": {
+   "t_exact": 1821.1,
+   "t_heur": 46.3,
+   "t_lp": 578.7,
+   "t_reduce": 70.1
+  }
+ },
+ "cg_instances": 34,
+ "cg_net8_vs_rc8_time_geomean": 1.015,
+ "marta_map_garage": {
+  "routes": [
+   "116",
+   "17",
+   "180"
+  ],
+  "trips": 235
+ },
+ "paired_tests_time": {
+  "synthetic_indset_v1_vs_default": {
+   "n": 18,
+   "geomean_time_ratio": 0.374,
+   "wilcoxon_p": 7.63e-06
+  },
+  "synthetic_setcover_v1_vs_default": {
+   "n": 18,
+   "geomean_time_ratio": 0.898,
+   "wilcoxon_p": 0.142
+  },
+  "miplib_v1_vs_default": {
+   "n": 39,
+   "geomean_time_ratio": 1.167,
+   "wilcoxon_p": 0.896
+  },
+  "marta_vmfast_vs_default": {
+   "n": 32,
+   "geomean_time_ratio": 0.626,
+   "wilcoxon_p": 4.13e-05
+  },
+  "marta_pscost_vs_default": {
+   "n": 32,
+   "geomean_time_ratio": 0.634,
+   "wilcoxon_p": 5.21e-06
+  },
+  "marta_vmfast_vs_pscost": {
+   "n": 32,
+   "geomean_time_ratio": 0.988,
+   "wilcoxon_p": 0.185
+  },
+  "marta_vmfast_vs_v1": {
+   "n": 32,
+   "geomean_time_ratio": 0.996,
+   "wilcoxon_p": 0.61
+  },
+  "marta_vmla_vs_default": {
+   "n": 32,
+   "geomean_time_ratio": 1.05,
+   "wilcoxon_p": 0.512
+  }
+ }
+}

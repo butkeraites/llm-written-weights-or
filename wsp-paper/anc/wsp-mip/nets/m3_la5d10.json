@@ -1,0 +1,30 @@
+{
+ "note": "MARTA cand 3: balanced fractional duties on contested trips, slight up-bias + lookahead {'k': 5, 'maxdepth': 10}",
+ "layers": [
+  {
+   "act": "linear",
+   "w": [
+    [
+     1,
+     0.5,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.3,
+     0.0,
+     0.3,
+     0.5,
+     0.0
+    ]
+   ],
+   "b": [
+    0.0
+   ]
+  }
+ ],
+ "lookahead": {
+  "k": 5,
+  "maxdepth": 10
+ }
+}

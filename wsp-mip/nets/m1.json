@@ -1,0 +1,26 @@
+{
+ "note": "MARTA cand 1: frac+ps+0.5 rowf (best combo on SB log read)",
+ "layers": [
+  {
+   "act": "linear",
+   "w": [
+    [
+     1,
+     1,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.5,
+     0.0
+    ]
+   ],
+   "b": [
+    0.0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+\documentclass[border=4pt]{standalone}
+\input{common.tex}
+\begin{document}
+\begin{tikzpicture}[node distance=5mm and 6mm]
+\node[box=2.1cm] (lp) {node LP\\ solved};
+\node[box=2.4cm, right=of lp] (cand) {fractional\\ candidates $j$};
+\node[box=2.6cm, right=of cand] (feat) {features $x_j\in\mathbb{R}^{11}$\\ (cheap: LP, duals,\\ pseudocosts, rows)};
+\node[box=2.1cm, hl, right=of feat] (mlp) {LLM-written\\ MLP $s(x_j)$};
+\node[box=2.1cm, right=of mlp] (br) {branch on\\ $\arg\max_j s$};
+\node[box=4.6cm, draw=look, fill=look!8, below=7mm of mlp] (la) {\emph{optional lookahead:} strong-branch only the top-$k$ by $s$; a child proven infeasible fixes the variable for free};
+\draw[arr] (lp) -- (cand); \draw[arr] (cand) -- (feat); \draw[arr] (feat) -- (mlp); \draw[arr] (mlp) -- (br);
+\draw[arr, draw=look, dashed] (mlp) -- (la);
+\draw[arr, draw=look, dashed] (la.east) -| (br.south);
+\end{tikzpicture}
+\end{document}

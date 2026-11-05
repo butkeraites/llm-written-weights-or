@@ -1,0 +1,18 @@
+{
+  "note": "v0, written by hand after reading single-feature SB agreement on practice (not fitted). One net for all classes. score = deg + dualm + 0.5 obj + 0.7 ps + 0.3 frac - 3 relu(0.4 - frac). deg captures hub variables whose up-branch propagates widely (indset); dualm/obj capture how much the LP pays for the column (setcover; for basic columns dualm == |c_j|); ps keeps SCIP's running evidence; the ReLU gate kills nearly integral candidates (argmin-frac agreement was 0%). Features are >= 0, so relu(x) = x passes them through the first layer.",
+  "layers": [
+    {
+      "act": "relu",
+      "w": [
+        [0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0],
+        [0, 0, 1, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [-1, 0, 0, 0, 0, 0, 0]
+      ],
+      "b": [0, 0, 0, 0, 0, 0.4]
+    },
+    { "act": "linear", "w": [[1, 1, 0.5, 0.7, 0.3, -3]], "b": [0] }
+  ]
+}

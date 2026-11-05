@@ -1,0 +1,4 @@
+{
+  "note": "Reference rule as a net: score = -cost (keep the cheapest labels). Features: [cost, time, rem_time, load, rem_cap, len, pot_time, pot_cap].",
+  "layers": [{ "act": "linear", "w": [[-1, 0, 0, 0, 0, 0, 0, 0]], "b": [0] }]
+}

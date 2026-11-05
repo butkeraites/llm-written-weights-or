@@ -1,0 +1,18 @@
+{
+  "note": "v1 = v0 edited after reading where v0 disagreed with strong branching on practice: its wrong picks had much higher pseudocost (0.80 vs 0.40 setcover, 0.92 vs 0.70 indset) and, on setcover, higher cost (0.62 vs 0.48) and lower LP value (0.31 vs 0.42) than the SB-best. So: ps 0.7 -> 0.2 (early pseudocosts are noisy), obj 0.5 -> 0 (dualm already carries |c_j| for basic columns), dualm 1 -> 0.7, + 0.4 val. deg, frac and the ReLU gate unchanged.",
+  "layers": [
+    {
+      "act": "relu",
+      "w": [
+        [0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 0, 1],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [-1, 0, 0, 0, 0, 0, 0]
+      ],
+      "b": [0, 0, 0, 0, 0, 0.4]
+    },
+    { "act": "linear", "w": [[1, 0.7, 0.4, 0.2, 0.3, -3]], "b": [0] }
+  ]
+}

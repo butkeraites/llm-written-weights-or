@@ -1,0 +1,12 @@
+{"instance": "data/marta_cal/marta_s5_02.lp", "rule": "relpscost", "status": "optimal", "nodes": 231, "time": 40.86378762498498, "gap": 0.0, "obj": 9177.0}
+{"instance": "data/marta_cal/marta_s5_05.lp", "rule": "relpscost", "status": "optimal", "nodes": 6, "time": 11.459835916059092, "gap": 0.0, "obj": 17368.0}
+{"instance": "data/marta_cal/marta_s5_05.lp", "rule": "fullstrong", "status": "optimal", "nodes": 5, "time": 20.001648167031817, "gap": 0.0, "obj": 17368.0}
+{"instance": "data/marta_cal/marta_s5_01.lp", "rule": "relpscost", "status": "optimal", "nodes": 12502, "time": 121.40651400003117, "gap": 0.0, "obj": 15396.0}
+{"instance": "data/marta_cal/marta_s5_02.lp", "rule": "fullstrong", "status": "optimal", "nodes": 29, "time": 215.3621417079121, "gap": 0.0, "obj": 9177.0}
+{"instance": "data/marta_cal/marta_s5_01.lp", "rule": "fullstrong", "status": "optimal", "nodes": 222, "time": 243.54253500001505, "gap": 0.0, "obj": 15396.0}
+{"instance": "data/marta_cal/marta_s5_00.lp", "rule": "fullstrong", "status": "timelimit", "nodes": 97, "time": 300.0016099589411, "gap": 0.09411226882356932, "obj": 19084.0}
+{"instance": "data/marta_cal/marta_s5_03.lp", "rule": "fullstrong", "status": "timelimit", "nodes": 60, "time": 300.00649233406875, "gap": 0.1307922567716377, "obj": 14023.0}
+{"instance": "data/marta_cal/marta_s5_03.lp", "rule": "relpscost", "status": "timelimit", "nodes": 12146, "time": 300.00435883307364, "gap": 0.04429484673869787, "obj": 13267.0}
+{"instance": "data/marta_cal/marta_s5_00.lp", "rule": "relpscost", "status": "timelimit", "nodes": 13875, "time": 300.00416720903013, "gap": 0.029779063736353893, "obj": 18154.0}
+{"instance": "data/marta_cal/marta_s5_04.lp", "rule": "relpscost", "status": "timelimit", "nodes": 154, "time": 300.0404586660443, "gap": 0.1861766999100133, "obj": 8186.0}
+{"instance": "data/marta_cal/marta_s5_04.lp", "rule": "fullstrong", "status": "timelimit", "nodes": 1, "time": 300.0510494579794, "gap": 0.5708033811313649, "obj": 10825.0}

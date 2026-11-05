@@ -1,0 +1,15 @@
+\documentclass[border=4pt]{standalone}
+\input{common.tex}
+\begin{document}
+\begin{tikzpicture}[node distance=7mm and 12mm]
+\node[box=4.3cm, hl] (llm) {\textbf{LLM writes weights}\\ a small MLP as JSON\\ (each weight justified in a note)};
+\node[box=4.3cm, right=of llm] (run) {\textbf{Solver runs with the net}\\ branch-and-bound stays exact;\\ a bad net only grows the tree};
+\node[box=4.3cm, below=of run] (diag) {\textbf{Forward-pass feedback}\\ at sampled nodes: strong-branching\\ rank of the net's pick, per-feature agreement, tree size};
+\node[box=4.3cm, hl] (read) at (llm |- diag) {\textbf{LLM reads the log}\\ and edits the weights by hand\\ (no gradient, no fitting)};
+\draw[arr] (llm) -- (run);
+\draw[arr] (run) -- (diag);
+\draw[arr] (diag) -- (read);
+\draw[arr] (read) -- (llm);
+\node[note, anchor=north] at ($(read.south)!0.5!(diag.south)+(0,-0.3)$) {practice instances only; frozen before any test run};
+\end{tikzpicture}
+\end{document}

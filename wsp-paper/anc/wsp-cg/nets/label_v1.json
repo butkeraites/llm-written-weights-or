@@ -1,0 +1,7 @@
+{
+  "note": "v1 (edit of v0 after practice feedback: v0 made the heuristic fail early because potential dominated cost while duals were large). Same circuit, beta 0.5 -> 0.1: potential only breaks near-ties.",
+  "layers": [
+    { "act": "relu", "w": [[0,0,0,0,0,0,1,-1],[0,0,0,0,0,0,1,0],[1,0,0,0,0,0,0,0],[-1,0,0,0,0,0,0,0]], "b": [0,0,0,0] },
+    { "act": "linear", "w": [[-0.1, 0.1, -1, 1]], "b": [0] }
+  ]
+}

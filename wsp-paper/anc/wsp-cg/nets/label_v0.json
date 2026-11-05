@@ -1,0 +1,16 @@
+{
+  "note": "v0, written zero-shot. score = -cost + beta * min(pot_time, pot_cap). A label that is a bit more expensive but early in the day and lightly loaded can still collect duals; the cheapest-only rule throws it away. The min is the bottleneck resource (time or capacity), built exactly from ReLUs: min(a,b) = a - relu(a-b). cost is split into relu(c) and relu(-c) to pass through the ReLU layer. beta = 0.5: only part of the optimistic potential is realizable.",
+  "layers": [
+    {
+      "act": "relu",
+      "w": [
+        [0, 0, 0, 0, 0, 0, 1, -1],
+        [0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0, 0],
+        [-1, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "b": [0, 0, 0, 0]
+    },
+    { "act": "linear", "w": [[-0.5, 0.5, -1, 1]], "b": [0] }
+  ]
+}

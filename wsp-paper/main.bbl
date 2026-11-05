@@ -1,0 +1,233 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achterberg(2007)]{achterberg2007}
+Tobias Achterberg.
+\newblock \emph{Constraint Integer Programming}.
+\newblock PhD thesis, Technische Universit{\"a}t Berlin, 2007.
+
+\bibitem[Achterberg(2009)]{achterberg2009}
+Tobias Achterberg.
+\newblock {SCIP}: solving constraint integer programs.
+\newblock \emph{Mathematical Programming Computation}, 1\penalty0 (1):\penalty0
+  1--41, 2009.
+\newblock \doi{10.1007/s12532-008-0001-1}.
+
+\bibitem[Achterberg et~al.(2005)Achterberg, Koch, and Martin]{achterberg2005}
+Tobias Achterberg, Thorsten Koch, and Alexander Martin.
+\newblock Branching rules revisited.
+\newblock \emph{Operations Research Letters}, 33\penalty0 (1):\penalty0 42--54,
+  2005.
+\newblock \doi{10.1016/j.orl.2004.04.002}.
+
+\bibitem[Balas and Ho(1980)]{balas1980}
+Egon Balas and Andrew Ho.
+\newblock Set covering algorithms using cutting planes, heuristics, and
+  subgradient optimization: A computational study.
+\newblock In M.~W. Padberg, editor, \emph{Combinatorial Optimization},
+  volume~12 of \emph{Mathematical Programming Studies}, pages 37--60. Springer
+  Berlin Heidelberg, 1980.
+\newblock \doi{10.1007/BFb0120886}.
+
+\bibitem[Baldacci et~al.(2011)Baldacci, Mingozzi, and Roberti]{baldacci2011}
+Roberto Baldacci, Aristide Mingozzi, and Roberto Roberti.
+\newblock New route relaxation and pricing strategies for the vehicle routing
+  problem.
+\newblock \emph{Operations Research}, 59\penalty0 (5):\penalty0 1269--1283,
+  2011.
+\newblock \doi{10.1287/opre.1110.0975}.
+
+\bibitem[Barab{\'a}si and Albert(1999)]{barabasi1999}
+Albert-L{\'a}szl{\'o} Barab{\'a}si and R{\'e}ka Albert.
+\newblock Emergence of scaling in random networks.
+\newblock \emph{Science}, 286\penalty0 (5439):\penalty0 509--512, 1999.
+\newblock \doi{10.1126/science.286.5439.509}.
+
+\bibitem[Bengio et~al.(2021)Bengio, Lodi, and Prouvost]{bengio2021}
+Yoshua Bengio, Andrea Lodi, and Antoine Prouvost.
+\newblock Machine learning for combinatorial optimization: A methodological
+  tour d'horizon.
+\newblock \emph{European Journal of Operational Research}, 290\penalty0
+  (2):\penalty0 405--421, 2021.
+\newblock \doi{10.1016/j.ejor.2020.07.063}.
+
+\bibitem[Bergman et~al.(2016)Bergman, Cire, van Hoeve, and Hooker]{bergman2016}
+David Bergman, Andre~A. Cire, Willem-Jan van Hoeve, and John Hooker.
+\newblock \emph{Decision Diagrams for Optimization}.
+\newblock Artificial Intelligence: Foundations, Theory, and Algorithms.
+  Springer International Publishing, Cham, 2016.
+\newblock \doi{10.1007/978-3-319-42849-9}.
+
+\bibitem[Cornu{\'e}jols et~al.(1991)Cornu{\'e}jols, Sridharan, and
+  Thizy]{cornuejols1991}
+G{\'e}rard Cornu{\'e}jols, Ramaswami Sridharan, and Jean-Michel Thizy.
+\newblock A comparison of heuristics and relaxations for the capacitated plant
+  location problem.
+\newblock \emph{European Journal of Operational Research}, 50\penalty0
+  (3):\penalty0 280--297, 1991.
+\newblock \doi{10.1016/0377-2217(91)90261-S}.
+
+\bibitem[Desaulniers et~al.(2005)Desaulniers, Desrosiers, and
+  Solomon]{desaulniers2005}
+Guy Desaulniers, Jacques Desrosiers, and Marius~M. Solomon, editors.
+\newblock \emph{Column Generation}.
+\newblock Springer US, 2005.
+\newblock \doi{10.1007/b135457}.
+
+\bibitem[Desrochers et~al.(1992)Desrochers, Desrosiers, and
+  Solomon]{desrochers1992}
+Martin Desrochers, Jacques Desrosiers, and Marius Solomon.
+\newblock A new optimization algorithm for the vehicle routing problem with
+  time windows.
+\newblock \emph{Operations Research}, 40\penalty0 (2):\penalty0 342--354, 1992.
+\newblock \doi{10.1287/opre.40.2.342}.
+
+\bibitem[Gasse et~al.(2019)Gasse, Ch{\'e}telat, Ferroni, Charlin, and
+  Lodi]{gasse2019}
+Maxime Gasse, Didier Ch{\'e}telat, Nicola Ferroni, Laurent Charlin, and Andrea
+  Lodi.
+\newblock Exact combinatorial optimization with graph convolutional neural
+  networks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32. Curran Associates, Inc., 2019.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2019/hash/d14c2267d848abeb81fd590f371d39bd-Abstract.html}.
+
+\bibitem[Gleixner et~al.(2021)Gleixner, Hendel, Gamrath, Achterberg, Bastubbe,
+  Berthold, Christophel, Jarck, Koch, Linderoth, L{\"u}bbecke, Mittelmann,
+  Ozyurt, Ralphs, Salvagnin, and Shinano]{miplib2017}
+Ambros Gleixner, Gregor Hendel, Gerald Gamrath, Tobias Achterberg, Michael
+  Bastubbe, Timo Berthold, Philipp Christophel, Kati Jarck, Thorsten Koch, Jeff
+  Linderoth, Marco L{\"u}bbecke, Hans~D. Mittelmann, Derya Ozyurt, Ted~K.
+  Ralphs, Domenico Salvagnin, and Yuji Shinano.
+\newblock {MIPLIB} 2017: data-driven compilation of the 6th mixed-integer
+  programming library.
+\newblock \emph{Mathematical Programming Computation}, 13\penalty0
+  (3):\penalty0 443--490, 2021.
+\newblock \doi{10.1007/s12532-020-00194-3}.
+
+\bibitem[Hojny et~al.(2025)Hojny, Besan{\c{c}}on, Bestuzheva, Borst,
+  Dion{\'i}sio, Ehls, Eifler, Ghannam, Gleixner, G{\"o}{\ss}, Hoen, von
+  Holly-Ponientzietz, van~der Hulst, Kamp, Koch, Kofler, Lentz, L{\"u}bbecke,
+  Maher, Meinhold, Mexi, Mohr, M{\"u}hmer, Patel, Pfetsch, Pokutta,
+  Reinartz~Groba, Serrano, Shinano, Turner, Vigerske, Walter, Weninger, and
+  Xu]{scip10}
+Christopher Hojny, Mathieu Besan{\c{c}}on, Ksenia Bestuzheva, Sander Borst,
+  Jo{\~a}o Dion{\'i}sio, Johannes Ehls, Leon Eifler, Mohammed Ghannam, Ambros
+  Gleixner, Adrian G{\"o}{\ss}, Alexander Hoen, Jacob von Holly-Ponientzietz,
+  Rolf van~der Hulst, Dominik Kamp, Thorsten Koch, Kevin Kofler, Jurgen Lentz,
+  Marco L{\"u}bbecke, Stephen~J. Maher, Paul~Matti Meinhold, Gioni Mexi, Til
+  Mohr, Erik M{\"u}hmer, Krunal~Kishor Patel, Marc~E. Pfetsch, Sebastian
+  Pokutta, Chantal Reinartz~Groba, Felipe Serrano, Yuji Shinano, Mark Turner,
+  Stefan Vigerske, Matthias Walter, Dieter Weninger, and Liding Xu.
+\newblock The {SCIP} {Optimization} {Suite} 10.0.
+\newblock arXiv:2511.18580, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.18580}.
+
+\bibitem[Huangfu and Hall(2018)]{huangfu2018}
+Q.~Huangfu and J.~A.~J. Hall.
+\newblock Parallelizing the dual revised simplex method.
+\newblock \emph{Mathematical Programming Computation}, 10\penalty0
+  (1):\penalty0 119--142, 2018.
+\newblock \doi{10.1007/s12532-017-0130-5}.
+
+\bibitem[Khalil et~al.(2016)Khalil, Le~Bodic, Song, Nemhauser, and
+  Dilkina]{khalil2016}
+Elias~B. Khalil, Pierre Le~Bodic, Le~Song, George~L. Nemhauser, and Bistra
+  Dilkina.
+\newblock Learning to branch in mixed integer programming.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~30, pages 724--731, 2016.
+\newblock \doi{10.1609/aaai.v30i1.10080}.
+
+\bibitem[Leyton-Brown et~al.(2000)Leyton-Brown, Pearson, and
+  Shoham]{leytonbrown2000}
+Kevin Leyton-Brown, Mark Pearson, and Yoav Shoham.
+\newblock Towards a universal test suite for combinatorial auction algorithms.
+\newblock In \emph{Proceedings of the 2nd ACM Conference on Electronic
+  Commerce}, pages 66--76. ACM, 2000.
+\newblock \doi{10.1145/352871.352879}.
+
+\bibitem[L{\"u}bbecke and Desrosiers(2005)]{lubbecke2005}
+Marco~E. L{\"u}bbecke and Jacques Desrosiers.
+\newblock Selected topics in column generation.
+\newblock \emph{Operations Research}, 53\penalty0 (6):\penalty0 1007--1023,
+  2005.
+\newblock \doi{10.1287/opre.1050.0234}.
+
+\bibitem[Maher et~al.(2016)Maher, Miltenberger, Pedroso, Rehfeldt, Schwarz, and
+  Serrano]{pyscipopt}
+Stephen Maher, Matthias Miltenberger, Jo{\~a}o~Pedro Pedroso, Daniel Rehfeldt,
+  Robert Schwarz, and Felipe Serrano.
+\newblock {PySCIPOpt}: Mathematical programming in {Python} with the {SCIP}
+  {Optimization} {Suite}.
+\newblock In Gert-Martin Greuel, Thorsten Koch, Peter Paule, and Andrew
+  Sommese, editors, \emph{Mathematical Software -- ICMS 2016}, volume 9725 of
+  \emph{Lecture Notes in Computer Science}, pages 301--307, Cham, 2016.
+  Springer International Publishing.
+\newblock \doi{10.1007/978-3-319-42432-3_37}.
+
+\bibitem[Marcos~Alvarez et~al.(2017)Marcos~Alvarez, Louveaux, and
+  Wehenkel]{alvarez2017}
+Alejandro Marcos~Alvarez, Quentin Louveaux, and Louis Wehenkel.
+\newblock A machine learning-based approximation of strong branching.
+\newblock \emph{INFORMS Journal on Computing}, 29\penalty0 (1):\penalty0
+  185--195, 2017.
+\newblock \doi{10.1287/ijoc.2016.0723}.
+
+\bibitem[{Metropolitan Atlanta Rapid Transit Authority (MARTA)}(2026)]{gtfs}
+{Metropolitan Atlanta Rapid Transit Authority (MARTA)}.
+\newblock {MARTA} {GTFS} static feed.
+\newblock \url{https://www.itsmarta.com/app-developer-resources.aspx}, 2026.
+\newblock Feed file
+  \url{https://itsmarta.com/google_transit_feed/google_transit.zip}, effective
+  2026-08-22, accessed 2026-11-04.
+
+\bibitem[Ryan and Foster(1981)]{ryan1981}
+D.~M. Ryan and B.~A. Foster.
+\newblock An integer programming approach to scheduling.
+\newblock In Anthony Wren, editor, \emph{Computer Scheduling of Public
+  Transport: Urban Passenger Vehicle and Crew Scheduling}, pages 269--280.
+  North-Holland, 1981.
+
+\bibitem[Takehi et~al.(2026)Takehi, Teoh, Zhang, and Khattab]{wsp}
+Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab.
+\newblock {Sparks of Weight-Space Programming: LLMs can natively read \& write
+  neural network weights}.
+\newblock \url{https://rikiyat.github.io/blog/weight-space-programming/},
+  November 2026.
+\newblock Blog post, MIT CSAIL, published November 2, 2026.
+
+\bibitem[Uchoa et~al.(2026)Uchoa, Malheiros, Queiroga, Subramanian, and
+  Martinelli]{xtw}
+Eduardo Uchoa, Igor Malheiros, Eduardo Queiroga, Anand Subramanian, and Rafael
+  Martinelli.
+\newblock Generation of the {XTW} and {XLTW} instances.
+\newblock
+  \url{https://galgos.inf.puc-rio.br/cvrplib/uploads/files/vrptw_challenge/instances.pdf},
+  October 2026.
+\newblock CVRPLib VRPTW Challenge,
+  \url{https://galgos.inf.puc-rio.br/cvrplib/}.
+
+\bibitem[Wentges(1997)]{wentges1997}
+P.~Wentges.
+\newblock Weighted {Dantzig--Wolfe} decomposition for linear mixed-integer
+  programming.
+\newblock \emph{International Transactions in Operational Research}, 4\penalty0
+  (2):\penalty0 151--162, 1997.
+\newblock \doi{10.1111/j.1475-3995.1997.tb00071.x}.
+
+\bibitem[Wren and Rousseau(1995)]{wren1995}
+Anthony Wren and Jean-Marc Rousseau.
+\newblock Bus driver scheduling --- an overview.
+\newblock In Joachim~R. Daduna, Isabel Branco, and Jos{\'e} M.~Pinto
+  Paix{\~a}o, editors, \emph{Computer-Aided Transit Scheduling}, volume 430 of
+  \emph{Lecture Notes in Economics and Mathematical Systems}, pages 173--187.
+  Springer Berlin Heidelberg, 1995.
+\newblock \doi{10.1007/978-3-642-57762-8_12}.
+
+\end{thebibliography}

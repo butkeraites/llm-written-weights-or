@@ -1,0 +1,8 @@
+{
+  "note": "v2: bounded bonus. score = -cost + 0.5*tanh(min(pot_time,pot_cap)/2). Layer 2 is tanh: cost goes through it scaled by 0.01 (tanh ~ identity there) and is scaled back by 100 in layer 3, while the potential is genuinely squashed, so the bonus is worth at most half a local distance unit.",
+  "layers": [
+    { "act": "relu", "w": [[0,0,0,0,0,0,1,-1],[0,0,0,0,0,0,1,0],[1,0,0,0,0,0,0,0],[-1,0,0,0,0,0,0,0]], "b": [0,0,0,0] },
+    { "act": "tanh", "w": [[0, 0, -0.01, 0.01], [-0.5, 0.5, 0, 0]], "b": [0, 0] },
+    { "act": "linear", "w": [[100, 0.5]], "b": [0] }
+  ]
+}

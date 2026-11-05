@@ -1,0 +1,20 @@
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,backgrounds}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\definecolor{wsp}{HTML}{2A78D6}
+\definecolor{dflt}{HTML}{7A7974}
+\definecolor{trn}{HTML}{EB6834}
+\definecolor{sb}{HTML}{1BAF7A}
+\definecolor{look}{HTML}{6250D6}
+\definecolor{ink}{HTML}{0B0B0B}
+\definecolor{ink2}{HTML}{52514E}
+\definecolor{paper}{HTML}{F4F3EF}
+\tikzset{
+  box/.style={draw=ink2, rounded corners=3pt, fill=paper, align=center, inner sep=5pt, font=\small, text width=#1},
+  box/.default=3.0cm,
+  hl/.style={draw=wsp, line width=0.9pt, fill=wsp!8},
+  arr/.style={-{Stealth[length=2.2mm]}, line width=0.7pt, draw=ink2},
+  note/.style={font=\footnotesize\itshape, text=ink2, align=center},
+}

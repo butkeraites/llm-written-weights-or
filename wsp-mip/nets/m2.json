@@ -1,0 +1,26 @@
+{
+ "note": "MARTA cand 2: trust pseudocosts (they learn which side gets cut off), + efficient duties, + rows with a single alternative",
+ "layers": [
+  {
+   "act": "linear",
+   "w": [
+    [
+     0.5,
+     1,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.3,
+     0.0,
+     0.3
+    ]
+   ],
+   "b": [
+    0.0
+   ]
+  }
+ ]
+}

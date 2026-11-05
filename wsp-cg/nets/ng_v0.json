@@ -1,0 +1,20 @@
+{
+  "note": "ng v0, zero-shot. score = -dist - 100*(no_cycle + j_unreachable + over_capacity), threshold -50. Each impossibility is an exact step built from two ReLUs: step(z) = relu(M z) - relu(M z - 1) with M = 1e5 (one time unit over H < 12000 already saturates). Effect: neighbours that can never be revisited after j are dropped and the slot goes to the next-nearest neighbour that can. Features: [dist, dist_rank, cycle_slack, reach_j, cap_slack, tw_width_k, tw_width_j].",
+  "threshold": -50,
+  "layers": [
+    {
+      "act": "relu",
+      "w": [
+        [0, 0, -100000, 0, 0, 0, 0],
+        [0, 0, -100000, 0, 0, 0, 0],
+        [0, 0, 0, -100000, 0, 0, 0],
+        [0, 0, 0, -100000, 0, 0, 0],
+        [0, 0, 0, 0, -100000, 0, 0],
+        [0, 0, 0, 0, -100000, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]
+      ],
+      "b": [0, -1, 0, -1, 0, -1, 0]
+    },
+    { "act": "linear", "w": [[-100, 100, -100, 100, -100, 100, -1]], "b": [0] }
+  ]
+}

@@ -1,0 +1,16 @@
+{"instance": "data/practice/indset/indset_1.lp", "rule": "pscost", "status": "optimal", "nodes": 347, "time": 5.880602375022136, "gap": 0.0, "obj": 345.0}
+{"instance": "data/practice/indset/indset_1.lp", "rule": "relpscost", "status": "optimal", "nodes": 27, "time": 9.752027667011134, "gap": 0.0, "obj": 345.0}
+{"instance": "data/practice/indset/indset_2.lp", "rule": "relpscost", "status": "optimal", "nodes": 214, "time": 12.761810083058663, "gap": 0.0, "obj": 343.0}
+{"instance": "data/practice/indset/indset_0.lp", "rule": "relpscost", "status": "optimal", "nodes": 137, "time": 13.248407041071914, "gap": 0.0, "obj": 342.0}
+{"instance": "data/practice/indset/indset_3.lp", "rule": "relpscost", "status": "optimal", "nodes": 403, "time": 14.28267224994488, "gap": 0.0, "obj": 340.0}
+{"instance": "data/practice/indset/indset_3.lp", "rule": "pscost", "status": "optimal", "nodes": 2558, "time": 27.334130625007674, "gap": 0.0, "obj": 340.0}
+{"instance": "data/practice/indset/indset_0.lp", "rule": "pscost", "status": "optimal", "nodes": 2961, "time": 34.463508541928604, "gap": 0.0, "obj": 342.0}
+{"instance": "data/practice/indset/indset_2.lp", "rule": "pscost", "status": "optimal", "nodes": 6392, "time": 48.409399625030346, "gap": 0.0, "obj": 343.0}
+{"instance": "data/practice/setcover/setcover_3.lp", "rule": "relpscost", "status": "optimal", "nodes": 1756, "time": 30.04211745900102, "gap": 0.0, "obj": 326.0}
+{"instance": "data/practice/setcover/setcover_0.lp", "rule": "relpscost", "status": "optimal", "nodes": 5059, "time": 62.05767183401622, "gap": 0.0, "obj": 312.0}
+{"instance": "data/practice/setcover/setcover_3.lp", "rule": "pscost", "status": "optimal", "nodes": 2154, "time": 19.90049495792482, "gap": 0.0, "obj": 326.0}
+{"instance": "data/practice/setcover/setcover_0.lp", "rule": "pscost", "status": "optimal", "nodes": 8741, "time": 71.04472370794974, "gap": 0.0, "obj": 312.0}
+{"instance": "data/practice/setcover/setcover_2.lp", "rule": "relpscost", "status": "optimal", "nodes": 26247, "time": 226.78804541693535, "gap": 0.0, "obj": 362.0}
+{"instance": "data/practice/setcover/setcover_1.lp", "rule": "relpscost", "status": "timelimit", "nodes": 32145, "time": 300.0130641669966, "gap": 0.032369338747691594, "obj": 351.0}
+{"instance": "data/practice/setcover/setcover_1.lp", "rule": "pscost", "status": "timelimit", "nodes": 36007, "time": 300.0009912500391, "gap": 0.043588000428551515, "obj": 351.0}
+{"instance": "data/practice/setcover/setcover_2.lp", "rule": "pscost", "status": "timelimit", "nodes": 43907, "time": 300.000074291951, "gap": 0.022339357927680076, "obj": 362.0}

@@ -1,0 +1,8 @@
+build/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.blg
+arxiv-upload.tar.gz
